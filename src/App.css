@@ -1,0 +1,104 @@
+.logoText {
+  transform: translateY(15%);
+
+}
+.list {
+  transform: translateY(30%);
+}
+* {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+}
+.border-dotted {
+  border-bottom: 1px dotted #ffffff;
+  padding: 10px;
+
+}
+.border-block {
+  border-bottom: 1px solid #ffffff;
+  padding: 10px;
+
+}
+
+@media (max-width: 576px) {
+  /* Styles for large phones */
+  .searchBar {
+    width: 100%;
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .laptopBanner {
+    width: 300px;
+  }
+  .bannerTitle {
+    font-size: 0.8rem;
+  }
+  .categories {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .categoriesD {
+    flex-direction: column;
+    gap: 15px;
+    transform: translateY(5%);
+  }
+  .card {
+    max-width: 150px;
+  }
+  .cardFeatureImage {
+    width: 120px;
+  }
+  .buttonB{
+    font-size: .5rem;
+  }
+  .cartItemCard{
+    max-width:300px;
+    height: 100px;
+  }
+    .cartItemCard img{
+      max-width: 70px;
+      max-height:70px;
+    }
+.quantity{
+  font-size: .5rem;
+}
+.cartItemCard p, h3{
+  font-size: 12px;
+}
+    .cartItemCard button{
+      height: 24px;
+      width: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size:.9rem;
+    }
+  .cart{
+    flex-direction: column;
+    align-items:center;
+  }
+  .cartContainer{
+height: 100vh;  }
+}
+
+@media (min-width: 768px) {
+  /* Styles for tablets */
+}
+
+@media (min-width: 992px) {
+  /* Styles for laptops */
+}
+
+@media (min-width: 1200px) {
+  /* Styles for desktops */
+}
+
+/* ================================
+   Extra extra large devices (≥ 1400px)
+   Large desktops
+================================ */
+@media (min-width: 1400px) {
+  /* Styles for very large screens */
+}
