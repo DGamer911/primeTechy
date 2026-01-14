@@ -3,7 +3,7 @@ import cart from "../stores/cart";
 import CartItemCard from "../components/CartItemCard";
 import Banner from "../components/banner";
 import Footer from "../components/Footer"
-import Header from "../components/header";
+import Header from "../components/Header";
 import { useState } from "react";
 import "../App.css";
 function Cart() {

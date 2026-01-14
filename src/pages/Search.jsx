@@ -4,7 +4,7 @@ import smartphones from "../data/smartphones";
 import tablets from "../data/tablets";
 import Navbar from "../components/Navbar";
 import Banner from "../components/banner";
-import Header from "../components/header";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { SearchIcon, SpaceIcon } from "lucide-react";
 import { useState } from "react";

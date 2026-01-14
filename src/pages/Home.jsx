@@ -1,4 +1,4 @@
-import Header from "../components/header";
+import Header from "../components/Header";
 import laptopBanner from "../assets/laptopBanner.png";
 import featuredProducts from "../data/FeaturedProducts";
 import Card from "../components/Card";
