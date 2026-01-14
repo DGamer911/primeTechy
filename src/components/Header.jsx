@@ -1,8 +1,8 @@
-import logo from "../assets/logo.svg";
+import logo from "../assets/Logo.svg";
 import profile from "../assets/profile.png";
 import "../App.css";
 import { NavLink } from "react-router-dom";
-import { BellDotIcon , ShoppingCart } from "lucide-react";
+import { BellDotIcon } from "lucide-react";
 
 import { SearchIcon } from "lucide-react";
 
