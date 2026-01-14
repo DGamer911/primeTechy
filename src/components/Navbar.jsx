@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-import Categories from "./categories.jsx";
+import Categories from "./Categories.jsx";
 import "../App.css";
 import { useState } from "react";
 

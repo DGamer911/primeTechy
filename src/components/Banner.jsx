@@ -1,4 +1,3 @@
-import React from "react";
 import { Smartphone, Laptop, Tablet, Watch, Cable } from "lucide-react";
 function Banner({ BannerText }) {
   return (
