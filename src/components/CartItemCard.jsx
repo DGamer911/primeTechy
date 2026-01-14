@@ -1,7 +1,6 @@
 import React from "react";
 import { Heart, Trash } from "lucide-react";
 import "../App.css";
-import { useEffect } from "react";
 
 function CartItemCard({ image, name, price, quantity, deleteItem }) {
   const [counter, setCounter] = React.useState(quantity);

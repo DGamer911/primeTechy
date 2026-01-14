@@ -6,7 +6,6 @@ import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { SearchIcon, SpaceIcon } from "lucide-react";
 import { useState } from "react";
 export const allProducts = [...laptops, ...smartphones, ...tablets];
 

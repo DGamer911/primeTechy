@@ -2,7 +2,7 @@ import React from 'react'
 import "../../App.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import Header from "../../components/header";
+import Header from "../../components/Header";
 import tablets from "../../data/tablets";
 import Card from '../../components/Card';
 import Banner from '../../components/Banner';
