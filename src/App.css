@@ -1,0 +1,155 @@
+.logoText {
+  transform: translateY(15%);
+
+}
+.list {
+  transform: translateY(30%);
+}
+* {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  margin:0;
+}
+.border-dotted {
+  border-bottom: 1px dotted grey;
+  padding: 10px;
+
+}
+.border-block {
+  border-bottom: 1px solid grey;
+  padding: 10px;
+
+
+
+
+
+}
+
+.bannerTitle{
+  box-shadow: 0 4px 8px rgba(0,0,0,.5);
+  
+}
+
+
+.cartItemCard:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,.25);
+  transition: .2s ease;
+}
+
+
+.productCard:hover{
+  box-shadow: 0 4px 4px rgba(0,0,0,.1);
+  z-index: 50;
+  transition: .2s ease;
+  
+}
+
+
+.cartContainer{
+  width: 100%;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: grey;
+
+}
+
+.navLinks a.active{
+    color: white;
+}
+
+.navLinks a:hover {
+  transform: translateY(-10%);
+  transition: 0.3s ease all;
+  color: white;
+}
+
+
+
+@media (max-width: 576px) {
+  /* Styles for large phones */
+ 
+  .laptopBanner {
+    width: 75%;
+  }
+  .bannerTitle {
+    font-size: 0.8rem;
+  }
+  .categories {
+    flex-direction: column;
+    gap: 15px;
+  }
+  nav{
+    display: none;
+  }
+  .categoriesD {
+    flex-direction: column;
+    gap: 15px;
+    transform: translateY(5%);
+  }
+
+  .cardFeatureImage {
+    width: 100%;
+  }
+  .buttonB{
+    font-size: .5rem;
+  }
+
+    .cartItemCard img{
+      max-width: 70px;
+      max-height:70px;
+    }
+.quantity{
+  font-size: .5rem;
+}
+.cartItemCard p, h3{
+  font-size: 12px;
+}
+    .cartItemCard button{
+      height: 24px;
+      width: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size:.9rem;
+    }
+  .cart{
+    flex-direction: column;
+    align-items:center;
+  }
+  .cartContainer{
+height: fit-content;
+width: 100%;  }
+.checkout{
+  width: 100%;
+}
+.cartItemCard{
+  width: 100%;
+}
+.addToCart{
+  display: none;
+}
+}
+
+@media (max-width: 768px) {
+  /* Styles for tablets */
+
+}
+
+@media (min-width: 992px) {
+  /* Styles for laptops */
+  
+}
+
+@media (min-width: 1200px) {
+  /* Styles for desktops */
+}
+
+/* ================================
+   Extra extra large devices (≥ 1400px)
+   Large desktops
+================================ */
+@media (min-width: 1400px) {
+  /* Styles for very large screens */
+}
