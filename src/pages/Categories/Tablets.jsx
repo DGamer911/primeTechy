@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/header";
 import tablets from "../../data/tablets";
 import Card from '../../components/Card';
-import Banner from '../../components/banner';
+import Banner from '../../components/Banner';
 
 function Tablets() {
   return (

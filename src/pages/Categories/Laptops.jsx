@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import laptop from "../../data/laptop";
 import Card from '../../components/Card';
-import Banner from '../../components/banner';
+import Banner from '../../components/Banner';
 function Laptops() {
 
 

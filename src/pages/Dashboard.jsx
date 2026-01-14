@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
-import Banner from "../components/banner";
+import Banner from "../components/Banner";
 import profile from "../assets/profile.png";
 import { ChevronRightIcon, Package, Mail, MessageSquareMoreIcon, Heart, Search, Wallet, Phone, HelpCircle, Info, NotebookPenIcon} from "lucide-react";
 import Footer from "../components/Footer";

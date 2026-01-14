@@ -5,7 +5,7 @@ import Card from "../components/Card";
 import Footer from "../components/Footer"
 import "../App.css";
 import Navbar from "../components/Navbar";
-import Banner from "../components/banner";
+import Banner from "../components/Banner";
 
 
 function Home() {

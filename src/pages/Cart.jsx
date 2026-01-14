@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import cart from "../stores/cart";
 import CartItemCard from "../components/CartItemCard";
-import Banner from "../components/banner";
+import Banner from "../components/Banner";
 import Footer from "../components/Footer"
 import Header from "../components/Header";
 import { useState } from "react";

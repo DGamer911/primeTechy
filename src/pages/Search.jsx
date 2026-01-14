@@ -3,7 +3,7 @@ import laptops from "../data/laptop";
 import smartphones from "../data/smartphones";
 import tablets from "../data/tablets";
 import Navbar from "../components/Navbar";
-import Banner from "../components/banner";
+import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { SearchIcon, SpaceIcon } from "lucide-react";
