@@ -7,7 +7,7 @@ import "./App.css";
 import Laptops from "./pages/Categories/Laptops";
 import Smartphones from "./pages/Categories/Smartphones";
 import Tablets from "./pages/Categories/Tablets";
-import Cart from "./pages/cart";
+import Cart from "./pages/Cart";
 import ProductDetails from "./pages/ProductDetails";
 import Favorites from "./pages/Favorites";
 
