@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import laptopBanner from "../assets/laptopBanner.png";
+import laptopBanner from "../assets/LaptopBanner.png";
 import featuredProducts from "../data/FeaturedProducts";
 import Card from "../components/Card";
 import Footer from "../components/Footer"
