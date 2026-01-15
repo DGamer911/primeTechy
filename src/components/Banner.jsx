@@ -1,6 +1,6 @@
 import { Smartphone, Laptop, Tablet, Watch, Cable } from "lucide-react";
 import "../App.css"
-function Banner({ BannerText }) {
+function Banner({ BannerText  }) {
   return (
     <div style={{boxShadow: "0 2px 4px rgba(0,0,0,0.5)"}} className="bg-light py-3 mb-2 w-100 text-center d-flex align-items-center position-relative">
       <div style={{filter:"blur(1px)"}} className=" d-flex justify-content-around w-100 opacity-25">
