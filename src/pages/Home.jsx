@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 import "../App.css";
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
-import { MoveRight } from "lucide-react";
 
 function Home() {
   return (
@@ -47,7 +46,7 @@ function Home() {
                   </p>
                 </div>
                 <button className="p-2 btn btn-warning rounded-3">
-                  Explore Galaxy <MoveRight size={18} />
+                  Explore Galaxy
                 </button>
               </div>
               <div className="rounded-4 d-flex flex-column justify-content-end border-secondary border d p-3 laptop">
