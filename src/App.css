@@ -28,9 +28,10 @@
 }
 
 .productCard:hover {
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
   z-index: 50;
-  transition: 0.3s ease;
+  scale: 1.01;
+  transition: .3s ease-in-out;
 }
 
 .cartContainer {
@@ -48,7 +49,7 @@
 
 .navLinks a:hover {
   transform: translateY(-10%);
-  transition: 0.3s ease all;
+  transition: 0.1s ease all;
   color: white;
 }
 
@@ -94,6 +95,12 @@
 
 }
 
+.laptop:hover,
+.samsung:hover,
+.imgSlider:hover{
+  transition: .3s ease-in;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 
 button,
 h1,
@@ -170,6 +177,11 @@ p{
   .addToCart {
     display: none;
   }
+  .cardBanner p{
+    display: none;
+}
+
+
 }
 
 @media (max-width: 768px) {
