@@ -28,7 +28,7 @@ const Navbar = () => {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            <span>Categories</span>
+            <span>Browse</span>
             <div>{isHovered && <Categories />} </div>
           </NavLink>
         </div>
