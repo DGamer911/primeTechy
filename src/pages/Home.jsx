@@ -16,11 +16,12 @@ function Home() {
       <div className=" main d-flex flex-column align-items-center py-3">
         <div className="imgDisplay flex-wrap px-4  d-flex gap-2">
           <div className="left flex-grow-1">
-            <div className="cardBanner rounded-4 p-3 border-secondary border d-flex flex-column imgSlider d-flex justify-content-end">
-              <div className="z-3">
+            <div className=" rounded-4 p-3 border-secondary border d-flex flex-column imgSlider d-flex justify-content-end">
+              <div className="cardBanner z-3">
                 <h1 className="text-white fs-4 fw-medium">Apple Ecosystem</h1>
                 <p style={{ maxWidth: "600px" }} className="text-white ">
-                  Power, Performance. Precision Seamlessly connected to your Apple world.
+                  Power, Performance. Precision Seamlessly connected to your
+                  Apple world.
                 </p>
                 <div className="d-flex gap-2">
                   <button className="p-2 btn btn-warning rounded-3">
@@ -35,23 +36,31 @@ function Home() {
           </div>
           <div className="right flex-grow-2 d-flex flex-column gap-2">
             <div className="upper d-flex gap-2">
-              <div className="rounded-4 cardBanner d-flex flex-column justify-content-end border-secondary border d samsung p-3">
-                <h1 className="text-white fs-4 fw-medium">Samsung Ecosystem</h1>
-                <p className="text-white ">
-                  One Galaxy. Endless possibilities. Seamlessly connected devices for work, play, and life.
-                </p>
-                                                  <button className="p-2 btn btn-warning rounded-3">
-                   Explore Galaxy <MoveRight size={18}/>
-                  </button>
+              <div className="rounded-4  d-flex flex-column justify-content-end border-secondary border d samsung p-3">
+                <div className="cardBanner z-3">
+                  <h1 className="text-white fs-4 fw-medium">
+                    Samsung Ecosystem
+                  </h1>
+                  <p className="text-white ">
+                    One Galaxy. Endless possibilities. Seamlessly connected
+                    devices for work, play, and life.
+                  </p>
+                </div>
+                <button className="p-2 btn btn-warning rounded-3">
+                  Explore Galaxy <MoveRight size={18} />
+                </button>
               </div>
-              <div className="rounded-4 cardBanner d-flex flex-column justify-content-end border-secondary border d p-3 laptop">
-                <h1 className="text-white fs-3 fw-medium">Gaming Laptops</h1>
-                <p className="text-white ">
-                  Built for Gamers. Powered for Victory. Next-gen graphics. Extreme Performance
-                </p>
-                                  <button className="p-2 btn btn-warning rounded-3">
-                   Explore Deals  
-                  </button>
+              <div className="rounded-4 d-flex flex-column justify-content-end border-secondary border d p-3 laptop">
+                <div className="z-3 cardBanner">
+                  <h1 className="text-white fs-3 fw-medium">Gaming Laptops</h1>
+                  <p className="text-white ">
+                    Built for Gamers. Powered for Victory. Next-gen graphics.
+                    Extreme Performance
+                  </p>
+                </div>
+                <button className="p-2 btn btn-warning rounded-3">
+                  Explore Deals
+                </button>
               </div>
             </div>
           </div>
